@@ -39,7 +39,7 @@ console.log(element)
 - props, passing props/function into component(props is used to pass value from parent to child component)
 - states, passing state into component
 - .map() method
-- Event listener
+- Event listener(`onSubmit={}` `onChange={}` `onClick={}`)
 - Conditional rendering
 - Ternary operator(E.g: `if hemant? "sah": "nayak"`)
 - Fetch API
