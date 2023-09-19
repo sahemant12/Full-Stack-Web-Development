@@ -16,10 +16,8 @@ This repo contains the roadmap and the full-stack web development notes along wi
 Video link: [https://www.youtube.com/watch?v=6l8RWV8D-Yo]
 
 1. `CDN(content delivery network)` : The primary purpose of a CDN is to deliver content, such as web pages, images, videos, and other media, to end-users quickly and efficiently.
-2. `Jsx(JavaScript syntax extension)` : JSX provides an easy way to write HTML in React and easy to create templates. It is a kind of function that returns a object that React can interpret and used to create actual element.
-
-E.g: 
-`const element = <h1 className="header">This is JSX</h1>
+2. `Jsx(JavaScript syntax extension)` : JSX provides an easy way to write HTML in React and easy to create templates. It is a kind of function that returns a object that React can interpret and used to create actual element. E.g:
+   `const element = <h1 className="header">This is JSX</h1>
 console.log(element)
 /* output
 {
@@ -34,5 +32,6 @@ console.log(element)
     _store: {}
 }
  */`
-4. How to create react app: `npx create-react-app name-of-app` then `cd name-of-app` then `npm start`
-5. How to create react app using vite: `npm create vite@latest` then `project name: react-app` then `framework:  react` then run `cd react-app` `npm install` `npm run dev`
+3. How to create react app: `npx create-react-app name-of-app` then `cd name-of-app` then `npm start`
+4. How to create react app using vite: `npm create vite@latest` then `project name: react-app` then `framework:  react` then run `cd react-app` `npm install` `npm run dev`
+
