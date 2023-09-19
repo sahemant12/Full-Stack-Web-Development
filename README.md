@@ -34,4 +34,31 @@ console.log(element)
  */`
 3. How to create react app: `npx create-react-app name-of-app` then `cd name-of-app` then `npm start`
 4. How to create react app using vite: `npm create vite@latest` then `project name: react-app` then `framework:  react` then run `cd react-app` `npm install` `npm run dev`
+5. Things to learn in react:
+- Components
+- props, passing props/function into component(props is used to pass value from parent to child component)
+- states, passing state into component
+- .map() method
+- Event listener
+- Conditional rendering
+- Ternary operator(E.g: `if hemant? "sah": "nayak"`)
+- Fetch API
+- Local Storage
+- lazy initialization [https://kentcdodds.com/blog/use-state-lazy-initialization-and-function-updates#usestate-lazy-initialization]
+-  **FORMS (Learn by doing)
+6. Extra:
+- `npm install nanoid` `import {nanoid} from "nanoid"` `id: nanoid()` : unique nanoid will create and assign its value to id.
+- array.unshift() : to put value of array on top.
+- arrray.push() : push the element to array.
+- event.stopPropagation() :  stops the bubbling of an event to parent elements, preventing any parent event handlers from being executed.
+- body.split('\n')[0] : split the body after every whitespaces and return only 1 split.
 
+7. All hooks in React
+   ##useState
+   ##useEffect
+   ##useReducers
+   ##useContext
+   ##useRef
+   ##useMemo
+   ##useCallback
+   
