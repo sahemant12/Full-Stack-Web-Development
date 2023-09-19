@@ -45,7 +45,7 @@ console.log(element)
 - Fetch API
 - Local Storage
 - lazy initialization [https://kentcdodds.com/blog/use-state-lazy-initialization-and-function-updates#usestate-lazy-initialization]
--  **FORMS (Learn by doing)
+-  **FORMS (Learn by doing) {controlled form}
 6. Extra:
 - `npm install nanoid` `import {nanoid} from "nanoid"` `id: nanoid()` : unique nanoid will create and assign its value to id.
 - array.unshift() : to put value of array on top.
