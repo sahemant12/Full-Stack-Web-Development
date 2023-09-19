@@ -4,14 +4,14 @@ This repo contains the roadmap and the full-stack web development notes along wi
 ## Roadmap
 - HTML
 - CSS
-- Js
+- JavaScript
 - React
 - Nodejs and ExpressJs
 - MongoDB
 - Linux
 - DevOps
 - Tailwind
-- 
+- TypeScript
 # React
 Video link: [https://www.youtube.com/watch?v=6l8RWV8D-Yo]
 
