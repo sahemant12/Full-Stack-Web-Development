@@ -45,13 +45,18 @@ console.log(element)
 - Fetch API
 - Local Storage
 - lazy initialization [https://kentcdodds.com/blog/use-state-lazy-initialization-and-function-updates#usestate-lazy-initialization]
--  **FORMS (Learn by doing) {controlled form}
+-  **FORMS (Learn by doing) : What is a controlled form? A controlled form is a form whose input-field values are dictated by the application's state, and the application's state is dictated by the input-field values.
+  
 6. Extra:
 - `npm install nanoid` `import {nanoid} from "nanoid"` `id: nanoid()` : unique nanoid will create and assign its value to id.
 - array.unshift() : to put value of array on top.
 - arrray.push() : push the element to array.
 - event.stopPropagation() :  stops the bubbling of an event to parent elements, preventing any parent event handlers from being executed.
 - body.split('\n')[0] : split the body after every whitespaces and return only 1 split.
+- array.filter() : to filter array object from array(return desired object from array).
+- array.find() : return the value of the first element that pass the test. Otherwise it returns undefined.
+- array.findIndex() : return the index of the first element that passes the test. Otherwise -1.
+- array.splice(index, howmany, item1, ....., itemX) : method adds and/or removes array elements and method overwrites the original array. [https://www.w3schools.com/jsref/jsref_splice.asp]
 
 7. All hooks in React
    ##useState
