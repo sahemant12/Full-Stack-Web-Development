@@ -61,4 +61,16 @@ console.log(element)
    ##useRef
    ##useMemo
    ##useCallback
+
+# Redux
+1. When we needed redux?
+   - When app is moderately complex.
+   - Lots of component levels.
+   - Lots of changes in state
+2. Redux have 5 parts
+   - `State`: Global state object of App(E.g: Balance- Rs100)
+   - `Action`: {type:'deposit', payload:10}
+   - `Reducers`: function receives the current state + action object (state,action)=>newState
+   - `Store`: store contains Reducers `getState()`
+   - `Dispatch`: only way to update the state is to call `store.dispatch()`
    
