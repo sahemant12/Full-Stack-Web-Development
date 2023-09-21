@@ -59,13 +59,13 @@ console.log(element)
 - array.splice(index, howmany, item1, ....., itemX) : method adds and/or removes array elements and method overwrites the original array. [https://www.w3schools.com/jsref/jsref_splice.asp]
 
 7. All hooks in React
-   ##useState
-   ##useEffect
-   ##useReducers
-   ##useContext
-   ##useRef
-   ##useMemo
-   ##useCallback
+   ### useState
+   ## useEffect
+   ## useReducers
+   ## useContext
+   ## useRef
+   ## useMemo
+   ## useCallback
 
 # Redux
 1. When we needed redux?
