@@ -60,12 +60,12 @@ console.log(element)
 
 7. All hooks in React
    ### useState
-   ## useEffect
-   ## useReducers
-   ## useContext
-   ## useRef
-   ## useMemo
-   ## useCallback
+   ### useEffect
+   ### useReducers
+   ### useContext
+   ### useRef
+   ### useMemo
+   ### useCallback
 
 # Redux
 1. When we needed redux?
