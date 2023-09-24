@@ -60,9 +60,25 @@ console.log(element)
 
 7. All hooks in React
    ### useState
+       - simple and easy to use for managing simple state values that don't require complex updates.
+       - const [counter, setCounter] = useState(0)
    ### useEffect
+       - It is used when our component needs to do something after render.
+       - It have 3 things. (1). Declare and effect (2). dependendies (3). clean up function
+       - useEffect(()=>{
+         },[])
    ### useReducers
+       - It is used to reduce the state. It have 4 things. (1). state (2). dispatch (3) reducer function (4). action
+       - const [state, dispatch] = useReducer(reducer, initialState)
+       - function reducer(state, action){ return state}
+       - onClick={()=>dispatch({type:"PLUS", payload:value})}
+       - action => {type:"PLUS", payload:value}
    ### useContext
+       - It is used to send the value or function from one component to another without the help of props. It helps to stop props 
+         drilling.
+       - `Context API` : It has 3 things: (1). `context` : E.g: const person = createContext() (2). 'provider' :  E.g: <person.Provider value={"Hemant"}/> (3). `consumer` : E.g: <person.Consumer>{(name)=>{
+           return <h1>My name is {name}</h1>
+           }} </person.Consumer>
    ### useRef
    ### useMemo
    ### useCallback
