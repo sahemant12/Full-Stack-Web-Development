@@ -76,12 +76,27 @@ console.log(element)
    ### useContext
        - It is used to send the value or function from one component to another without the help of props. It helps to stop props 
          drilling.
-       - `Context API` : It has 3 things: (1). `context` : E.g: const person = createContext() (2). 'provider' :  E.g: <person.Provider value={"Hemant"}/> (3). `consumer` : E.g: <person.Consumer>{(name)=>{
+       - `Context API` : It has 3 things:
+       - (1). `context` : E.g: const person = createContext()
+       - (2). 'provider' :  E.g: <person.Provider value={"Hemant"}/>
+       - (3). `consumer` : E.g: <person.Consumer>{(name)=>{
            return <h1>My name is {name}</h1>
            }} </person.Consumer>
+       - useContext is used to replace the consumer. E.g: const personName = useContext(person)
    ### useRef
+       - 1. It creates a mutable variable which will not re-render the components.
+       - 2. to access a DOM element directly.
+       - E.g: const count= useRef(1) //it always return a object which have current variable(now current =1)
+       - See other examples from internet
    ### useMemo
+       - It is use to increase the performance of our applications.
+       - useEffect hook doesn't return anything but useMemo always return memoized value. AND useCallback return memoized callback.
+       - memoized value: Memoization is an optimization feature in React which, when used in the right place, increases the 
+         performance of the program.
+       - E.g : See from internet
    ### useCallback
+       - both useMemo and useCallback increase the performance of our applications.
+       - E.g : See from internet
 
 # Redux
 1. When we needed redux?
