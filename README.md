@@ -46,6 +46,7 @@ console.log(element)
 - Local Storage
 - lazy initialization [https://kentcdodds.com/blog/use-state-lazy-initialization-and-function-updates#usestate-lazy-initialization]
 -  **FORMS (Learn by doing) : What is a controlled form? A controlled form is a form whose input-field values are dictated by the application's state, and the application's state is dictated by the input-field values.
+-  axioms
   
 6. Extra:
 - `npm install nanoid` `import {nanoid} from "nanoid"` `id: nanoid()` : unique nanoid will create and assign its value to id.
@@ -57,6 +58,9 @@ console.log(element)
 - array.find() : return the value of the first element that pass the test. Otherwise it returns undefined.
 - array.findIndex() : return the index of the first element that passes the test. Otherwise -1.
 - array.splice(index, howmany, item1, ....., itemX) : method adds and/or removes array elements and method overwrites the original array. [https://www.w3schools.com/jsref/jsref_splice.asp]
+- <></> {known as fragment}
+- way to write className = {``dark ${color}``}
+- mockaroo( random data generator website)
 
 7. All hooks in React
    ### useState
@@ -76,7 +80,7 @@ console.log(element)
    ### useContext
        - It is used to send the value or function from one component to another without the help of props. It helps to stop props 
          drilling.
-       - `Context API` : It has 3 things:
+       - `Context API` : React Context API allows you to easily access data at different levels of the component tree, without passing props to every level. It has 3 things:
        - (1). `context` : E.g: const person = createContext()
        - (2). 'provider' :  E.g: <person.Provider value={"Hemant"}/>
        - (3). `consumer` : E.g: <person.Consumer>{(name)=>{
