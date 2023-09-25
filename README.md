@@ -12,6 +12,7 @@ This repo contains the roadmap and the full-stack web development notes along wi
 - DevOps
 - Tailwind
 - TypeScript
+- 
 # React
 Video link: [https://www.youtube.com/watch?v=6l8RWV8D-Yo]
 
@@ -59,8 +60,12 @@ console.log(element)
 - array.findIndex() : return the index of the first element that passes the test. Otherwise -1.
 - array.splice(index, howmany, item1, ....., itemX) : method adds and/or removes array elements and method overwrites the original array. [https://www.w3schools.com/jsref/jsref_splice.asp]
 - <></> {known as fragment}
-- way to write className = {``dark ${color}``}
-- mockaroo( random data generator website)
+- way to write className = {` `dark ${color}` `}
+- mockaroo( random data generator website) : [https://www.mockaroo.com/]
+- JSON placeholder API : [ https://jsonplaceholder.typicode.com/ ]
+- htmlFor(E.g: `<label htmlFor="hello">click me</label> <input type="text" id="hello"/>` )
+- Higher Order functions (map, filter, reduce) : [https://www.youtube.com/watch?v=oGpA98nNx6Y]
+- array.reduce() : It doesn't return array like map and filter method. It basically return the sum of array(One of E.g)
 
 7. All hooks in React
    ### useState
