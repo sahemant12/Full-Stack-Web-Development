@@ -138,27 +138,38 @@ console.log(element)
     
 Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
 1. `Nodejs` : It is runtime environment for javascript. + it have APIs. Jaise Browser js ko run karta hai ussi tarah Node javascript ko run karta hai.
-2. Things to learn in Nodejs and Expressjs
+2. HTTP : (HyperText Transfer Protocol): It was designed to communicate between web services and web browsers. http request have no. of components
+   - (i) Path(URL): when the client send the request to the server it needs to have a url. OR server is living at specific address and that address is URL.
+   - (ii) Request Method(like POST, GET, PUT, DELETE, PATCH, OPTIONS)
+   - (iii) BODY(Optional)
+   - (iV) HEADER
+   - `GET` : It gives us the information that we want from servers.
+   - `POST` : sending/adding new data to the server(E.g USERID and PASSWORD).
+   - `PUT` : Update the existing data(or replace all current representations).
+   - `DELETE` : delete a particular data.
+   - `PATCH` : apply partial modications to a data.
+4. Things to learn in Nodejs and Expressjs
    - dependencies, devDependencies
    - introduction to Node, NPM, Package.JSON
    - Event loop [ https://www.youtube.com/watch?v=W-HQC_YUGBY ]
-4. Importing modules method:
+5. Importing modules method:
    - const lib = require('./lib.js') (Method1 for importing modules by the help of object)
    - import {sum,diff} from "./lib.js" (Method2 for importing modules by the help of ES module)
-5. Reading data from files: const fs = require('fs'); //fetching fs from fileSystem module.
+6. Reading data from files: const fs = require('fs'); //fetching fs from fileSystem module.
    - const txt = fs.readFileSync('demo.txt','utf-8'); console.log(txt); ('utf-8' is encoding to decode the message into readable format //reading file synchronous but this is not good use. It'll block other file till it is not excuted)
    - fs.readFile('demo.txt','utf-8',(err,txt)=>{ //best way to read files. This is asynchronous
     // console.log(txt); })
    - const t1 = performance.now(); //checking time to execute the code.
-6. 3 line for creating server:
+7. 3 line for creating server:
    - const express = require('express');
    - const server = express();
    - server.listen(2020); //server struct // we have to close server ownself so we use "ctrl + c" so that new code will run
-7. Extra:
+8. Extra:
    - command: `npm init` //for setting package.json
    - command: `npm install express` //installing express
    - for deleting dependencies we use command: `npm uninstall express` `npm uninstall nodemon`
-   - command:`npm install --global nodemon`
+   - command:`npm install --global nodemon` => `nodemon index.js` => This command will install nodemon globally so that we don't have to restart the server again and again after every modification.
+
    - `nodemon` is a package for running node server and track live changes to re-start again.
    - Node versions are formatted like 4.1.9 where these are `major.minor.patch` versions.
    - package-lock.json has exact versions installed and link of dependencies of each package.
@@ -177,5 +188,14 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
 - HTTP Method: [ https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers ]
 - DummyJSON : [ https://dummyjson.com/ ]
 3. Expressjs
-  - 
+  - Expressjs have 5 method:
+  -  1. Application methods : e.g. app.use()
+        - Hello
+        - hemant
+     2. Request methods
+     3. Response methods
+     4. Middleware methods
+     5. Router methods
+     6. for more details check: https://expressjs.com/en/4x/api.html
+    
 
