@@ -6,13 +6,14 @@ This repo contains the roadmap and the full-stack web development notes along wi
 - CSS
 - JavaScript
 - React
+- Redux
 - Nodejs and ExpressJs
 - MongoDB
 - Linux
 - DevOps
 - Tailwind
 - TypeScript
-- 
+
 # React
 Video link: [https://www.youtube.com/watch?v=6l8RWV8D-Yo]
 
@@ -171,4 +172,10 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
 - (i) Static file Hosting : Sending normal files without formatting or modifying.
 - (ii) Server Side Rendering : Mixing data with templates and rendering dynamic views (dynamic web pages) //This chapter 2 product is dynamic rendering(or Server Side Rendering)
 - (iii) Web APIs : Sending data via some APIs/ endpoints.
+- Imp. Links: Web Server Concept: [ https://www.youtube.com/watch?v=sfMNI0yLZII ]
+- HTTP headers: [ https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers ]
+- HTTP Method: [ https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers ]
+- DummyJSON : [ https://dummyjson.com/ ]
+3. Expressjs
+  - 
 
