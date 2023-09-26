@@ -188,14 +188,23 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
 - HTTP Method: [ https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers ]
 - DummyJSON : [ https://dummyjson.com/ ]
 3. Expressjs
+  - Creating server
+  - `const express = require('express');` `const server = express();` `server.listen(8080);`
+  - server.get('/demo',(req,res)=>{ res.send('<h1>hemant</h1>'); })
+  - server.get('/',(req,res)=>{ res.json({type:'GET'}) }) //server.get is Application method and res.json is response method
   - Expressjs have 5 method:
   -  1. Application methods : e.g. app.use()
-        - Hello
-        - hemant
      2. Request methods
      3. Response methods
-     4. Middleware methods
+     4. Middleware methods(means request aaya toh bich mai usko edit, modify etc kiya)
      5. Router methods
      6. for more details check: https://expressjs.com/en/4x/api.html
+    ### Middleware methods:
+  - 1. Application Level MiddleWare:
+       - server.use((req,res,next)=>{ console.log(req.method,req.ip,req.hostname,req.cookies,new Date(),req.get('User-Agent')); 
+           //these are the request properties and req.get() is request method.
+            next() //now we can go to next middleware })
+    2. Router Level MiddleWare:
+       - 
     
 
