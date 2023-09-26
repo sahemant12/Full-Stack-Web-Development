@@ -133,6 +133,8 @@ console.log(element)
 10. Server-Side rendering
 11. JWT, Authentication
 12. Streams, Events, Sockets
+
+    
 Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
 1. `Nodejs` : It is runtime environment for javascript. + it have APIs. Jaise Browser js ko run karta hai ussi tarah Node javascript ko run karta hai.
 2. Things to learn in Nodejs and Expressjs
@@ -161,3 +163,12 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
    - package-lock.json has exact versions installed and link of dependencies of each package.
    - use npm update to update packages safely. npm outdated shows outdated and latets versions of packages installed in your package.json
    - node_modules should not be shared - you can make `.gitignoreto` ignore them to be uploaded.
+
+### A/c RoadMAP
+2. Server Concepts with Node:
+- 1st we initialise the package.json by command: `npm init -y`
+- We can use Server to do 3 things:
+- (i) Static file Hosting : Sending normal files without formatting or modifying.
+- (ii) Server Side Rendering : Mixing data with templates and rendering dynamic views (dynamic web pages) //This chapter 2 product is dynamic rendering(or Server Side Rendering)
+- (iii) Web APIs : Sending data via some APIs/ endpoints.
+
