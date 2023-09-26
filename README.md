@@ -119,7 +119,21 @@ console.log(element)
    - `Store`: store contains Reducers `getState()`
    - `Dispatch`: only way to update the state is to call `store.dispatch()`
 
-# Nodejs and Expressjs [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
+# Nodejs and Expressjs
+### Roadmap:
+1. Modules, Packages, Npm
+2. Server Concepts with Node
+3. Web Server(Expressjs)
+4. REST API (Expressjs)
+5. File Structure MVC
+6. MongoDB
+7. Mongoose
+8. React Integration
+9. Deploy MERN App
+10. Server-Side rendering
+11. JWT, Authentication
+12. Streams, Events, Sockets
+Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
 1. `Nodejs` : It is runtime environment for javascript. + it have APIs. Jaise Browser js ko run karta hai ussi tarah Node javascript ko run karta hai.
 2. Things to learn in Nodejs and Expressjs
    - dependencies, devDependencies
