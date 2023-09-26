@@ -119,23 +119,31 @@ console.log(element)
    - `Store`: store contains Reducers `getState()`
    - `Dispatch`: only way to update the state is to call `store.dispatch()`
 
-# Nodejs and Expressjs
+# Nodejs and Expressjs [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
 1. `Nodejs` : It is runtime environment for javascript. + it have APIs. Jaise Browser js ko run karta hai ussi tarah Node javascript ko run karta hai.
-2. Importing modules method:
+2. Things to learn in Nodejs and Expressjs
+   - dependencies, devDependencies
+   - introduction to Node, NPM, Package.JSON
+   - Event loop [ https://www.youtube.com/watch?v=W-HQC_YUGBY ]
+4. Importing modules method:
    - const lib = require('./lib.js') (Method1 for importing modules by the help of object)
    - import {sum,diff} from "./lib.js" (Method2 for importing modules by the help of ES module)
-3. Reading data from files: const fs = require('fs'); //fetching fs from fileSystem module.
+5. Reading data from files: const fs = require('fs'); //fetching fs from fileSystem module.
    - const txt = fs.readFileSync('demo.txt','utf-8'); console.log(txt); ('utf-8' is encoding to decode the message into readable format //reading file synchronous but this is not good use. It'll block other file till it is not excuted)
    - fs.readFile('demo.txt','utf-8',(err,txt)=>{ //best way to read files. This is asynchronous
     // console.log(txt); })
    - const t1 = performance.now(); //checking time to execute the code.
-4. 3 line for creating server:
+6. 3 line for creating server:
    - const express = require('express');
    - const server = express();
    - server.listen(2020); //server struct // we have to close server ownself so we use "ctrl + c" so that new code will run
-5. Extra:
-   - command: 'npm init' //for setting package.json
-   - command: 'npm install express' //installing express
-   - for deleting dependencies we use command: 'npm uninstall express' 'npm uninstall nodemon'
-   - command:'npm install nodemon --save-dev'
-
+7. Extra:
+   - command: `npm init` //for setting package.json
+   - command: `npm install express` //installing express
+   - for deleting dependencies we use command: `npm uninstall express` `npm uninstall nodemon`
+   - command:`npm install --global nodemon`
+   - `nodemon` is a package for running node server and track live changes to re-start again.
+   - Node versions are formatted like 4.1.9 where these are `major.minor.patch` versions.
+   - package-lock.json has exact versions installed and link of dependencies of each package.
+   - use npm update to update packages safely. npm outdated shows outdated and latets versions of packages installed in your package.json
+   - node_modules should not be shared - you can make `.gitignoreto` ignore them to be uploaded.
