@@ -118,4 +118,24 @@ console.log(element)
    - `Reducers`: function receives the current state + action object (state,action)=>newState
    - `Store`: store contains Reducers `getState()`
    - `Dispatch`: only way to update the state is to call `store.dispatch()`
-   
+
+# Nodejs and Expressjs
+1. `Nodejs` : It is runtime environment for javascript. + it have APIs. Jaise Browser js ko run karta hai ussi tarah Node javascript ko run karta hai.
+2. Importing modules method:
+   - const lib = require('./lib.js') (Method1 for importing modules by the help of object)
+   - import {sum,diff} from "./lib.js" (Method2 for importing modules by the help of ES module)
+3. Reading data from files: const fs = require('fs'); //fetching fs from fileSystem module.
+   - const txt = fs.readFileSync('demo.txt','utf-8'); console.log(txt); ('utf-8' is encoding to decode the message into readable format //reading file synchronous but this is not good use. It'll block other file till it is not excuted)
+   - fs.readFile('demo.txt','utf-8',(err,txt)=>{ //best way to read files. This is asynchronous
+    // console.log(txt); })
+   - const t1 = performance.now(); //checking time to execute the code.
+4. 3 line for creating server:
+   - const express = require('express');
+   - const server = express();
+   - server.listen(2020); //server struct // we have to close server ownself so we use "ctrl + c" so that new code will run
+5. Extra:
+   - command: 'npm init' //for setting package.json
+   - command: 'npm install express' //installing express
+   - for deleting dependencies we use command: 'npm uninstall express' 'npm uninstall nodemon'
+   - command:'npm install nodemon --save-dev'
+
