@@ -13,7 +13,19 @@ This repo contains the roadmap and the full-stack web development notes along wi
 - DevOps
 - Tailwind
 - TypeScript
-
+# CSS
+1. Selector in CSS:
+   - Type Selector : h1{ } 
+   - Universal Selector : *{ } 
+   - Class Selector : *class-name{ }
+   - id Selector : #id-name{ } 
+   - Attribute Selector : a[href="www.example.com"] { }
+   - Pseudo-class Selector : p:first-child { } E.g: hover, visited, 
+   - Pseudo-element Selector : p::first-line { }
+   - Descendant combinator : article p
+   - Child combinator : article>p
+   - Adjacent Sibling Combinator : h1+p
+   - General Sibling Combinator : h1~p
 # React
 Video link: [https://www.youtube.com/watch?v=6l8RWV8D-Yo]
 
