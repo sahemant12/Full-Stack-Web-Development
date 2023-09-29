@@ -44,8 +44,11 @@ This repo contains the roadmap and the full-stack web development notes along wi
    - justify-content :	Horizontally aligns the flex items when the items do not use all available space on the main-axis.
    - align-items : Vertically aligns the flex items when the items do not use all available space on the cross-axis.
    - align-content : Modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines.
-5. Grid Layout
-   - 
+5. Grid Layout (Other Advance Properties later***)
+   - gap : (E.g: display: grid; column/row-gap: 50px;)
+   - grid-template : (E.g: display: grid; grid-template-columns/row: auto auto auto;)
+   - justify-content : justify-content: space-between, start, center, space-evenly;(space-evenly:will give the columns equal amount of space between, and around them)
+   - align-content : align-content: center, start, space-evenly; (space-evenly:will give the rows equal amount of space between, and around them)
 6. Extra:
   - Overflow : ( overflow: visible, hidden, scroll, auto; ) ( overflow-x: hidden;  overflow-y: scroll; )
   - display : display: none, inline, block, inline-block;
