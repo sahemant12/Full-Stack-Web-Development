@@ -26,6 +26,29 @@ This repo contains the roadmap and the full-stack web development notes along wi
    - Child combinator : article>p
    - Adjacent Sibling Combinator : h1+p
    - General Sibling Combinator : h1~p
+2. Position
+   - static : An element with position: static; is not positioned in any special way; it is always positioned according to the 
+            normal flow of the page.
+   - relative : An element with position: relative; is positioned relative to its normal position. (E.g: position: relative;
+  left: 30px; )
+   - fixed : An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. (E.g: position: fixed; )
+   - absolute : An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed) (E.g: position: absolute;)
+   - sticky : The sticky element sticks to the top of the page (top: 0), when you reach its scroll position(One of example).
+3. FlexBox
+   - flex-direction : (E.g: display: flex; flex-direction: column, row;)
+   - flex-wrap : (E.g: display: flex; flex-wrap: wrap, nowrap, wrap-reverse, row wrap;)
+   - justify-content : (E.g: display: flex; justify-content: center, flex-start, flex-end, space-around;)
+   - align-items : (E.g: display: flex; align-items: center, flex-start, stretch, baseline;)
+   - align-content : (E.g: display: flex; align-content: space-between, space-around, stretch, center, flex-start, flex-end;)
+   - Definations:
+   - justify-content :	Horizontally aligns the flex items when the items do not use all available space on the main-axis.
+   - align-items : Vertically aligns the flex items when the items do not use all available space on the cross-axis.
+   - align-content : Modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines.
+5. Grid Layout
+   - 
+6. Extra:
+  - Overflow : ( overflow: visible, hidden, scroll, auto; ) ( overflow-x: hidden;  overflow-y: scroll; )
+  - display : display: none, inline, block, inline-block;
 # React
 Video link: [https://www.youtube.com/watch?v=6l8RWV8D-Yo]
 
