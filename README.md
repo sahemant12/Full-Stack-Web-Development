@@ -277,10 +277,10 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
             - (b) morgan : morgan('tiny') //morgan is a logger which is used to log(gives the information about request)
                   morgan('default')
 
-
-    # Next ->
+# Next ->
   4. REST APIs and CRUD(Easy Done)
-  5. MVC : It is used to manage the code so that it is not look dirty. It is used for bigger project.
+     - Router: `const router = express.Router()` for more details: [ https://expressjs.com/en/guide/routing.html ]
+  6. MVC : It is used to manage the code so that it is not look dirty. It is used for bigger project.
     - Model: The backend that contains all the data logic.
     - View: The frontend or graphical user interface (GUI).
     - Controller: The brains of the application that controls how data is displayed.
