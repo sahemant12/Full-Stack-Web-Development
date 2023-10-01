@@ -14,11 +14,6 @@ This repo contains the roadmap and the full-stack web development notes along wi
 - Tailwind
 - TypeScript
 # CSS
- - 1. Application Level MiddleWare:
-       - server.use((req,res,next)=>{ console.log(req.method,req.ip,req.hostname,req.cookies,new Date(),req.get('User-Agent')); 
-           //these are the request properties and req.get() is request method.
-            next() //now we can go to next middleware })
-    2. Router Level MiddleWare:
 1. Selector in CSS:
    - Type Selector : h1{ } 
    - Universal Selector : *{ } 
@@ -244,6 +239,7 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
      4. Middleware methods(means request aaya toh bich mai usko edit, modify etc kiya)
      5. Router methods
      6. for more details check: https://expressjs.com/en/4x/api.html
+        
     ### Middleware methods: best link** [ https://expressjs.com/en/guide/using-middleware.html ]
   
      1. Middleware functions are functions that have access to the request object (req), the response object (res), and the next function in the application’s request-response cycle. (MiddleWare is the fn that process the request.)
@@ -255,7 +251,33 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
      3. When request made by client is comes to server then it pass through one or multiple middleware and the request get modified each time. Next in middleware is use to call the next middleware.
      4. MiddleWare either send back the request with response OR send modified req to new middleware.
      5. position of middleware is very important.
- 
-       - 
+     6. Types of middleware:
+       - (i) Application level : app.use(middleware)
+       - (ii) Router level : app.get('/', middleware, (req,res)=>{})
+       - (iii) Built-in middleware : express.json() [ for parsing body data], express.static()[for static hosting]
+       - (iv) Third-party middleware - like morgan
+       - (v) Error-handling middleware
+     7. Body-parser:
+        - It allows you to extract data from the request body, which is typically sent in the form of JSON, URL-encoded, or multipart form data.
+        - Using body-parser simplifies the process of handling request bodies in Node.js or Express.js applications by providing a convenient way to extract and parse the data from the requests.
+      8. (iii) Built-in middleware : //Link for build-in middleware:[ https://www.youtube.com/watch?v=11GeorvleGI ]
+          - (a) express.json() : server.use(express.json()); is a built-in middleware in Express.js that parses incoming requests with JSON payloads. It is similar to the body-parser middleware, but it is specifically designed to handle JSON data. (own language) : Whatever we are sending inside the body while requesting, express.json() convert the body data into json.
+          - (b) express.urlencoded() : it is used to read the data of form.
+          - (c) express.static('public') : The express.static() middleware is a built-in middleware in Express.js that serves static 
+                files such as HTML, CSS, JavaScript, images, and more. It allows you to specify a directory on your server that 
+                contains static assets, and Express.js will automatically handle the routing and serving of those files.
+                //Own words: express.static('public') it go to the public directory and send the file-data available in the public 
+                directory, if no files are available then it call the next middleware.
+            - (d) express.text() : use to read the text value that is requested
+         9. (iv) External Middle-wares:
+             - (a) cookieParser(): server.use(cookieParser()); //it is used to read the cookies and through res.send() we can use 
+                 that cookies.
+            - (b) morgan : morgan('tiny') //morgan is a logger which is used to log(gives the information about request)
+                  morgan('default')
+
+
+          
+
+
     
 
