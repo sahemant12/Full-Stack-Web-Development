@@ -215,6 +215,8 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
    - node_modules should not be shared - you can make `.gitignoreto` ignore them to be uploaded.
    - .startsWith()
    - .replace()
+   - dotenv : Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. In process.env we can add our own environment variable. dotenv files are hidden. `npm i dotenv` `require('dotenv').config()` `console.log(process.env)` : Link: [ https://www.npmjs.com/package/dotenv ]
+   - cors : (Cross-Origin Resource Sharing)
 
 ### A/c RoadMAP
 2. Server Concepts with Node:
