@@ -285,8 +285,12 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
     - Model: The backend that contains all the data logic.
     - View: The frontend or graphical user interface (GUI).
     - Controller: The brains of the application that controls how data is displayed.
-  6. MongoDB and Mongoose
-     -
+   6. MongoDB and Mongoose
+     - Mongoose: mongoose is object modeling for node.js Link : [ https://mongoosejs.com/ ].
+     - We can connect Atlas with multiple things like : (a) MongoShell (b) MongoDB Compass(connect with local DB) (c) Driver(directly with nodejs) (d) Mongoose 
+     - Learn other things by Doing.
+   7. Connecting API with React
+      
 
 
           
