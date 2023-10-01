@@ -14,6 +14,11 @@ This repo contains the roadmap and the full-stack web development notes along wi
 - Tailwind
 - TypeScript
 # CSS
+ - 1. Application Level MiddleWare:
+       - server.use((req,res,next)=>{ console.log(req.method,req.ip,req.hostname,req.cookies,new Date(),req.get('User-Agent')); 
+           //these are the request properties and req.get() is request method.
+            next() //now we can go to next middleware })
+    2. Router Level MiddleWare:
 1. Selector in CSS:
    - Type Selector : h1{ } 
    - Universal Selector : *{ } 
@@ -213,6 +218,8 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
    - package-lock.json has exact versions installed and link of dependencies of each package.
    - use npm update to update packages safely. npm outdated shows outdated and latets versions of packages installed in your package.json
    - node_modules should not be shared - you can make `.gitignoreto` ignore them to be uploaded.
+   - .startsWith()
+   - .replace()
 
 ### A/c RoadMAP
 2. Server Concepts with Node:
@@ -237,12 +244,18 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
      4. Middleware methods(means request aaya toh bich mai usko edit, modify etc kiya)
      5. Router methods
      6. for more details check: https://expressjs.com/en/4x/api.html
-    ### Middleware methods:
-  - 1. Application Level MiddleWare:
-       - server.use((req,res,next)=>{ console.log(req.method,req.ip,req.hostname,req.cookies,new Date(),req.get('User-Agent')); 
-           //these are the request properties and req.get() is request method.
-            next() //now we can go to next middleware })
-    2. Router Level MiddleWare:
+    ### Middleware methods: best link** [ https://expressjs.com/en/guide/using-middleware.html ]
+  
+     1. Middleware functions are functions that have access to the request object (req), the response object (res), and the next function in the application’s request-response cycle. (MiddleWare is the fn that process the request.)
+     2. Middleware functions can perform the following tasks:
+       - (i) Execute any code.
+       - (ii) Make changes to the request and the response objects.
+       - (iii) End the request-response life cycle.
+       - (iv) Call the next middleware in the stack (next()).
+     3. When request made by client is comes to server then it pass through one or multiple middleware and the request get modified each time. Next in middleware is use to call the next middleware.
+     4. MiddleWare either send back the request with response OR send modified req to new middleware.
+     5. position of middleware is very important.
+ 
        - 
     
 
