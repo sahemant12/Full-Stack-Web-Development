@@ -230,7 +230,7 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
 3. Expressjs
   - Creating server
   - `const express = require('express');` `const server = express();` `server.listen(8080);`
-  - server.get('/demo',(req,res)=>{ res.send('<h1>hemant</h1>'); })
+  - server.get('/demo',(req,res)=>{ res.send('<h>hemant</h>'); })
   - server.get('/',(req,res)=>{ res.json({type:'GET'}) }) //server.get is Application method and res.json is response method
   - Expressjs have 5 method:
   -  1. Application methods : e.g. app.use()
