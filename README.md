@@ -278,6 +278,14 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
                   morgan('default')
 
 
+    # Next ->
+  4. REST APIs and CRUD(Easy Done)
+  5. MVC : It is used to manage the code so that it is not look dirty. It is used for bigger project.
+    - Model: The backend that contains all the data logic.
+    - View: The frontend or graphical user interface (GUI).
+    - Controller: The brains of the application that controls how data is displayed.
+
+
           
 
 
