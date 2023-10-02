@@ -298,7 +298,13 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
    8. Authentication with JWT
       - A JSON web token(JWT) is JSON Object which is used to securely transfer information over the web(between two parties). It can be used for an authentication system 
          and can also be used for information exchange. The token is mainly composed of header, payload, signature. These three parts are separated by dots(.).
-      - 
+      - First we create token : `var token = jwt.sign({ email:req.body.email }, process.env.SECRET)`  `product.token = token` then add that token in product.
+      - Second : Get that token `const token = req.get('Authorization').split(' ')[1]` then verify `var decoded = jwt.verify(token,process.env.SECRET)` if verified successfully then call next() middleware.
+      - jsonwebtoken(jwt) : [ https://www.npmjs.com/package/jsonwebtoken ]
+      - jwt.io : [ https://jwt.io/ ]
+      - JWT authorization workflow : [ https://documentation.softwareag.com/webmethods/compendiums/v10-11/C_API_Management/index.html#page/api-mgmt-comp/co-jwt_usecase_workflow.html ]
+      - There are many algorithm we follow for authorization. Above alogrithm is : HMAC SHA256
+      - Other algorithm: `RS256` : Its key is bigger and have more security. link: [ https://cryptotools.net/rsagen ]. It has two key public and private key.
 
        
       
