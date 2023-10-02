@@ -295,6 +295,10 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
       - `npm i -g http-server` : to install http-server globally.
       - `cd build` `http-server` : to check whether compiled react-app is running or not.
       - `const path = require('path')` : use to specify the path.
+   8. Authentication with JWT
+      - A JSON web token(JWT) is JSON Object which is used to securely transfer information over the web(between two parties). It can be used for an authentication system 
+         and can also be used for information exchange. The token is mainly composed of header, payload, signature. These three parts are separated by dots(.).
+      - 
 
        
       
