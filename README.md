@@ -290,6 +290,13 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
      - We can connect Atlas with multiple things like : (a) MongoShell (b) MongoDB Compass(connect with local DB) (c) Driver(directly with nodejs) (d) Mongoose 
      - Learn other things by Doing.
    7. Connecting API with React
+      - Easy see code or watch video again.
+      - `npm run build` : it will build a folder of compile react-app that contains HTML, CSS, Js and other stuff which we will use for backend.
+      - `npm i -g http-server` : to install http-server globally.
+      - `cd build` `http-server` : to check whether compiled react-app is running or not.
+      - `const path = require('path')` : use to specify the path.
+
+       
       
 
 
