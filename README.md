@@ -311,6 +311,7 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
       - Installation : `npm install bcrypt`
       - Hashing: `bcrypt.hashSync(userProvidedPassword, saltRounds)`
       - Verifying Password: `bcrypt.compareSync(loginPassword, AlreadyHashedPassword)`, return true of false based on verification of password.
+      - use `password.js` for logIn/signUp link: https://www.passportjs.org/
 
        
       
