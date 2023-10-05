@@ -307,7 +307,10 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
       - Other algorithm: `RS256` : Its key is bigger and have more security. link: [ https://cryptotools.net/rsagen ]. It has two key public and private key.
       - Private Key: by the help of private key we generate token.
       - Public Key: by the help of public key we verify token.
-      - password encrpt: 
+      - password hashing: we use bcrypt to safely store the password. you can use a library like bcrypt to hash password.
+      - Installation : `npm install bcrypt`
+      - Hashing: `bcrypt.hashSync(userProvidedPassword, saltRounds)`
+      - Verifying Password: `bcrypt.compareSync(loginPassword, AlreadyHashedPassword)`, return true of false based on verification of password.
 
        
       
