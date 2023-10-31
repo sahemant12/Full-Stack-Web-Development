@@ -52,6 +52,22 @@ This repo contains the roadmap and the full-stack web development notes along wi
 6. Extra:
   - Overflow : ( overflow: visible, hidden, scroll, auto; ) ( overflow-x: hidden;  overflow-y: scroll; )
   - display : display: none, inline, block, inline-block;
+
+# Tailwind CSS
+1. Layout:
+   - container
+   - box-border      box-sizing: content-box;
+   - block           display: block; (Take all the block(line))
+   - visible         visibility: visible; ( Show or hide without affecting the layout of the document.)
+   - Z-index
+   - position
+2. Flexbox & Grid
+   - Flex basis         flex-basis: 0px;(Increase the width of flex item)
+   - Flex Wrap          flex-wrap: wrap;( wrap the flex item )
+   - Flex Grow          flex-grow: 1;( Use grow to allow a flex item to grow to fill any available space )
+   - Flex Shrink        shrink: 1;( Use shrink to allow a flex item to shrink if needed )
+   - Order              order-first( Utilities for controlling the order of flex and grid items.)
+   - Grid 
 # React
 Video link: [https://www.youtube.com/watch?v=6l8RWV8D-Yo]
 
