@@ -71,7 +71,9 @@ This repo contains the roadmap and the full-stack web development notes along wi
    - Justify Items-      justify-items: start;(inline axis.) almost same Justify Self
    - Place Content-      mixture of justify content and align item.
 3. Width & Height
-   - width               min-width: fit-content;(whatever will be the content, the width will fit according to content. other: min-content, max-content
+   - width-              min-width: fit-content;(whatever will be the content, the width will fit according to content. other: min-content, max-content
+4. Other Concept:
+   - 
 # React
 Video link: [https://www.youtube.com/watch?v=6l8RWV8D-Yo]
 
