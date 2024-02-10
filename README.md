@@ -335,8 +335,15 @@ Video link: [ https://www.youtube.com/watch?v=ChVE-JbtYbM ]
       - Verifying Password: `bcrypt.compareSync(loginPassword, AlreadyHashedPassword)`, return true of false based on verification of password.
       - use `password.js` for logIn/signUp link: https://www.passportjs.org/
 
-       
-      
+# http status
+   1.  '200': 'OK'
+   2.  '201': 'Created'
+   3.  '202': 'Accepted'
+   4.  '400': 'Bad Request'
+   5.  '401': 'Unauthorized'
+   6.  '404': 'Not Found'
+   7.  '500': 'Internal Server Error'
+   8.   
 
 
           
