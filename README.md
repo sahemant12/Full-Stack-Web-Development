@@ -14,7 +14,17 @@ This repo contains the roadmap and the full-stack web development notes along wi
 - Tailwind
 - TypeScript
 # HTML
-1. Semantic Elements:
+1. Tag:
+   - <div>,<p> : block-tag
+   - <span>: inline-tag
+2. Semantic Elements:
+   - Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+   - Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+   - More E.g: <section>, <article>, <header>, <nav>, <main> --> <section>, <footer>, <aside>
+3. Form Elements:
+   - For input type use label. E.g: <lable>Name</lable> <input type="text>
+   - <button type="button onclick="alert('Hello World!')">Click Me!</button>
+   - <fieldset>
 # CSS
 1. Selector in CSS:
    - Type Selector : h1{ } 
