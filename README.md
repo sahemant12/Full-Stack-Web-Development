@@ -13,6 +13,8 @@ This repo contains the roadmap and the full-stack web development notes along wi
 - DevOps
 - Tailwind
 - TypeScript
+# HTML
+1. Semantic Elements:
 # CSS
 1. Selector in CSS:
    - Type Selector : h1{ } 
