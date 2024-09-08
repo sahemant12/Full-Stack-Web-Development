@@ -15,7 +15,7 @@ This repo contains the roadmap and the full-stack web development notes along wi
 - TypeScript
 # HTML
 1. Tag:
-   - <div>,<p> : block-tag
+   - `<div>,<p>` : block-tag
    - <span>: inline-tag
 2. Semantic Elements:
    - Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
